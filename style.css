@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
 .cabecalho {
-    background-color: #44ff11;
+    background-color: #12ddaa;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -12,14 +17,71 @@
     align-items: center;
 }
 
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.conteudo {
+    display: flex;
+    height: 200px;
+}
+
 .navegacao {
-    background-color: #77eedd;
+    background-color: #ad5566;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao li {
+    margin-bottom: 10px;
 }
 
 .secao {
-    background-color: #ffee12;
+    background-color: #32a97c;
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
 }
 
 .rodape {
-    background-color: #123eee;
+    background-color: #00ddff;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.redes a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #fff;
+    opacity: 0.7;
 }
